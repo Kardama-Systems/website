@@ -2,7 +2,7 @@ export default function Footer() {
 	return (
 		<footer className="row-start-3 flex items-end justify-center pb-4 w-full relative">
 			{/* Circuit board pattern */}
-			<div className="absolute bottom-0 left-0 right-0 h-40 opacity-24 text-gray-800 pointer-events-none">
+			<div className="absolute bottom-0 left-0 right-0 h-40 opacity-12 text-gray-500 pointer-events-none">
 				<svg
 					width="100%"
 					height="100%"

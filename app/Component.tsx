@@ -2,11 +2,11 @@ import { Button } from '@/components/ui/button';
 
 export default function Component() {
 	return (
-		<div className="max-w-6xl mx-auto space-y-16">
+		<div className="max-w-6xl mx-auto">
 			{/* Two column layout */}
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24">
+			<div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
 				{/* Left column - Mission */}
-				<div className="space-y-8">
+				<div className="space-y-8 pr-8">
 					<p className="text-[13px] leading-[1.8] text-gray-900 dark:text-gray-100 tracking-wide">
 						Embedded operations engineering for India&apos;s distributed solar
 						sector.
@@ -34,7 +34,7 @@ export default function Component() {
 				</div>
 
 				{/* Right column - Team */}
-				<div className="space-y-8 border-l border-gray-400 pl-12 md:pl-24">
+				<div className="space-y-8 md:border-l md:border-gray-200 md:pl-12 pt-12 md:pt-0">
 					<h2 className="text-md font-medium tracking-wide text-gray-800 uppercase">
 						Who We Are
 					</h2>
