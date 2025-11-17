@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
 	title: 'Kardama Systems',
-	description: 'AI-native distributed solar ops software',
+	description: 'Operations Software for Solar Energy',
 };
 
 export default function RootLayout({
