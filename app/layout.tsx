@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Kardama Systems',
-	description: 'Operations Software for Solar Energy',
+	title: 'Kardama Systems | Operations Software for Solar Energy',
+	description: '',
 };
 
 export default function RootLayout({
