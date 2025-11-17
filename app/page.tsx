@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Component from './Component';
+import Footer from './Footer';
 
 export default function Home() {
 	return (
@@ -17,11 +18,7 @@ export default function Home() {
 			<main className="row-start-2 pt-16 w-full">
 				<Component />
 			</main>
-			<footer className="row-start-3 flex items-end justify-center">
-				<p className="font-mono text-xs text-gray-600 dark:text-gray-400">
-					© 2025 Kardama Systems Private Limited
-				</p>
-			</footer>
+			<Footer />
 		</div>
 	);
 }
